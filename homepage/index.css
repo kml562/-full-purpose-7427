@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+#top{
+    background-color:rgb(50,175,176);
+ border: 20px solid rgb(50,175,176);
+    height: auto;
+    display:grid;
+   grid-template-columns: repeat(2,1fr);
+display: block;
+
+}
+#intop{
+   
+height: 60px;
+width: 90%;
+margin: auto;
+display: flex;
+margin-top: 20px;
+color: white;
+}
+
+.search-bar{
+    display: flex;
+    background-color: white;
+    margin-left: 20px;
+width: 50%;
+height: 40px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+border-radius: 7px;
+color: grey;
+
+}
+.search-bar >select{
+    border-radius: 7px;
+    color: grey;
+    border: 0;
+}
+.search-bar>input{
+    width: 70%;
+    color: gray;
+    border: 0px;
+}
+svg{
+height: 20px;
+width: 20px;
+}
+
+#top>div{
+    
+    justify-content: space-around;
+}
+#midsec{
+color: whitesmoke;
+ display: flex;
+
+   margin-top: 20px; 
+   width: 80%;
+   margin: auto;
+   
+}
+#midsec >div {
+    display: flex;
+align-items: center;
+}
+#midsec div select{
+    height: 30px;
+   width: 80px;
+   color: whitesmoke;
+   background-color:rgb(50,175,176);
+   border: 0px solid rgb(50,175,176);
+}
+#midsec >div>div> img{
+    height: 50px;
+   
+}
+
+#options{
+    width: 80%;
+
+    margin: auto;
+   margin-top: 20px;
+   margin-bottom: 20px;
+    display: flex; justify-content: space-evenly;
+    color: grey;
+}
+   
+    #slider{
+     
+        overflow: hidden;
+        padding-bottom: 20px;
+     
+    }
+   
+#slider figure{
+position: relative;
+width: 500%;
+margin: 0;
+left: 0;
+animation: 20s slider infinite;
+}
+#slider figure img{
+    width: 20%;
+    float: left;
+
+}
+
+@keyframes slider {
+    0%{
+        left: 0;
+    }20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+    #three{
+   
+        width: 95%;
+        display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    border-radius: 5px;
+    justify-content: space-around;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    
+    }
+    
+    #three>div{
+        height: auto;
+    
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     
+        border-radius: 10px;
+        display: flex;
+    }
+    
+    #three>div>img{
+        width: 15%;
+        height: 50%;
+      margin-top: 15px;
+    }
+ 
+   .three_1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+ gap: 30px;
+width: 90%;
+margin: auto;
+margin-bottom: 30px;
+
+   
+   }
+   .three_1>div{
+    
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   }
+.three_1 img{
+    height: 50%;
+padding-left: 10px;
+padding-right: 20px;
+}
+.three_1>div{
+    display: flex;
+}
+   .three_1>div h4{
+    color: green;
+}
+#order{
+   width: 90%;
+    display: flex;
+    margin: auto;
+
+}
+
+#order>div{
+    display: flex;
+    justify-content: space-between;
+width: 50%;
+line-height: 40px;
+}
+#order>div p{
+    color: grey;
+}
+#order>div h3{
+    color: rgb(50,175,176);
+    
+}
+#order>div button{
+    color: whitesmoke;
+    background-color: rgb(50,175,176) ;
+    border: solid 5px rgb(50,175,176);
+    border-radius: 4px;
+    
+}
+#main{
+    margin-bottom: 20px;
+}
+#teal{
+    border: solid 20px rgb(50,175,176);
+    min-height: 150px;
+    background-color: rgb(50,175,176);
+    display: flex;
+    justify-content: space-between;
+}
+#five{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+
+}
