@@ -135,6 +135,7 @@ left: -200%;
         left: -400%;
     }
 }
+
     #three{
    
         width: 95%;
@@ -221,15 +222,181 @@ line-height: 40px;
 #main{
     margin-bottom: 20px;
 }
-#teal{
+#teal{color: white;
     border: solid 20px rgb(50,175,176);
     min-height: 150px;
     background-color: rgb(50,175,176);
     display: flex;
     justify-content: space-between;
-}
+    padding: 20px;
+   margin-bottom: -50px;
+   margin-top: 20px;}
 #five{
     display: grid;
     grid-template-columns: repeat(5,1fr);
+   width: 90%;
+   margin: auto;
+   gap: 15px;
+  
+  
 
+}
+#five>div{
+    padding-top: 20PX;
+    background-color: rgb(255,254,254);
+    border: solid blue 0px;
+    text-align: center;
+   line-height: 30px;
+   
+    border-radius: 10px;
+  
+}
+
+#five>div>div h3{
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+#five>div>div button{
+    background-color: teal;
+    border: solid teal;
+    border-radius: 3px;
+    font-weight: bold;
+    color: aliceblue;
+    margin-bottom: 10px;
+    width: 90%;
+}
+#five>div>div p{
+    color: grey;
+}
+#five>div>div b{
+    color: black;
+}
+#five>div>div>h4{
+    color: teal;
+}
+#cat{
+   
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    margin-bottom: 20px;
+}
+#cat>p{
+    color: red;
+    font-weight: bold;
+}
+#box{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding-bottom: 20px;
+}
+#newbox{
+  padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border: solid grey 1px;
+    border-radius: 10px;
+    background-color: aliceblue;
+   margin-top: 20px;
+   margin-bottom: 20px;
+
+}
+#newbox>div {
+    display: flex;
+  
+align-items: center;
+
+}
+
+#newbox>div button{
+background-color: teal;
+height: 40px;
+border: teal;
+border-radius: 5px;
+
+
+}
+#newfour{
+
+    display: grid;
+grid-template-columns: repeat(4,1fr);
+    width: 90%;
+    margin: auto;
+ gap: 10px;
+ margin-bottom: 30px;
+}
+#newfour>div{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  text-align: center;
+    line-height: 45px;
+    border-radius: 7px;
+}
+#newfour img{
+    width: 100%;
+}
+#text{
+    width: 100%;
+    padding: 20px;
+    padding-top: 30px;
+    padding-right: 30px;
+    line-height: 20px;
+    color: grey;
+    background-color: rgb(242,247,250);
+}
+#text>h2{
+    margin: 10px;
+    margin-left: 0;
+    color: black;
+}
+#text b{
+    color: rgb(137, 143, 145);
+}
+#main >h1{
+margin-left: 3%;
+}
+#netmed{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    margin-top: 40px;
+    color: grey;
+    margin-left: 150px;
+    
+}
+#netmed p{
+    width: 100%;
+   
+    margin-left: 40px;
+}
+#text-box{
+    width: 80%;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+line-height: 30px;
+}
+#text-box p{
+    color: gray;
+}
+#boxx{
+margin-top: 15px;
+margin-bottom: 10px;
+    display: flex;
+justify-content: space-between;
+box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+#twoimg{
+    display: flex;
+gap: 20px;
+}
+#twoimg img{
+    width: 45%;
+}
+#last{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 80%;
+    margin-left: 150px;
+    color: gray;
 }
