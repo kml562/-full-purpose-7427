@@ -238,7 +238,7 @@ line-height: 40px;
    margin: auto;
    gap: 15px;
   
-  
+   
 
 }
 #five>div{
@@ -247,7 +247,7 @@ line-height: 40px;
     border: solid blue 0px;
     text-align: center;
    line-height: 30px;
-   
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     border-radius: 10px;
   
 }
@@ -312,6 +312,8 @@ background-color: teal;
 height: 40px;
 border: teal;
 border-radius: 5px;
+
+
 
 
 }
@@ -380,7 +382,7 @@ line-height: 30px;
     color: gray;
 }
 #boxx{
-margin-top: 15px;
+margin-top: 25px;
 margin-bottom: 10px;
     display: flex;
 justify-content: space-between;
@@ -399,4 +401,161 @@ gap: 20px;
     width: 80%;
     margin-left: 150px;
     color: gray;
+}
+#newmain{
+display: flex;
+
+width: 80%;
+margin: auto;
+}
+#newmain>div:first-child{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    
+}
+#first>div{
+    display: flex;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 10px;
+    border-radius: 10px;
+   padding: 20px;
+   line-height: 25px;
+   
+}
+#newmain>#first button{
+    background-color: rgb(36,175,176);
+    border: 0px;
+    color: white;
+margin-left: 500px;
+
+font-weight: bold;
+  width: max-content;
+  min-height: 30%;
+margin-top: -9px;
+ border-radius: 5px;}
+
+#newmain span{
+    color: rgb(238,67,129);
+    font-size: large;
+}
+#second{
+    margin: 10px;
+    width: 30%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#second>div:first-child{
+ 
+ display: flex;
+
+}
+#second>div>div:first-child{
+    
+    width: 150%;
+}
+#second>div>div:last-child{
+
+    width: 30%;
+
+}
+#second img{
+    width: 100%;
+    border-radius: 5px;
+}
+#second>div:last-child{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(244,131,173);
+    margin: 10px;
+}
+#second button{
+border-color: rgb(237,236,238);
+color: rgb(111,132,176);
+border: 0px;
+padding: 8px;
+border-radius: 6px;
+font-weight: bold;
+
+}
+#new{
+    width:90%;
+    margin: auto ;
+  margin-bottom: 5px;
+}
+
+#mainbox{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+#mainbox>h4{
+    color: gray;
+    padding: 20px;
+    margin-bottom: -50px;
+}
+
+#catbox{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+   
+   margin: auto;
+   gap: 15px;
+  
+   padding: 20px;
+   padding-top: 40px;
+   margin-top: -20px;
+border-radius: 10px;
+}
+#catbox>div{
+  
+    background-color: rgb(255,254,254);
+    border: solid black 1px;
+    text-align: center;
+ display: block;
+  padding: 5px;
+    border-radius: 10px;
+  line-height: 20px;
+}
+
+#catbox>div>div h5{
+    line-height: 10px;
+    margin-bottom: 20px;
+}
+#catbox>div>div button{
+    background-color:rgb(36,175,176);
+    border: solid teal 0px;
+    border-radius: 3px;
+    font-weight: bold;
+    color: aliceblue;
+    margin-bottom: 10px;
+    width: 90%;
+}
+#catbox>div>div p{
+    color: grey;
+}
+
+#catbox>div>div>h4 span{
+    color:rgb(241,77,137);
+    font-weight: bold;
+}
+#catbox>div button:first-child{
+width: fit-content;
+display: block;
+font-size: xx-small;
+background-color: rgb(133,190,83);
+border: 0px;
+}
+#cat{
+    width: 90%;
+    margin: auto;
+}
+a{
+    color: blue;
 }
